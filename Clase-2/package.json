@@ -1,0 +1,18 @@
+{
+  "name": "segundaclase",
+  "version": "1.0.0",
+  "description": "Tipos de Variables, salida por consola",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "variables",
+    "let",
+    "var",
+    "const"
+  ],
+  "author": "Jose Luis Ochoa G",
+  "license": "ISC"
+}

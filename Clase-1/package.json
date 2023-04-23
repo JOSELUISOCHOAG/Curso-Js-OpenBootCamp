@@ -1,0 +1,18 @@
+{
+  "name": "primerjs",
+  "version": "1.0.0",
+  "description": "Mi primer programa js usando nodeJs y Npm",
+  "main": "primerJS.js",
+  "scripts": {
+    "start": "node primerJS.js",
+    "saludar":"node holamundo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "primer",
+    "programa",
+    "JS"
+  ],
+  "author": "Jose Luis Ochoa",
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,1 @@
+2.Sintaxis, variables y palabras reservadas de JS

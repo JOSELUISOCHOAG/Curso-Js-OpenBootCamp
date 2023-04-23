@@ -1,0 +1,25 @@
+{
+  "name": "1-primerejercicio",
+  "version": "1.0.0",
+  "description": "Primer ejercicio del Curso JS, Open BootCamp",
+  "main": "ejercicio-1.js",
+  "scripts": {
+    "start": "node ejercicio-1.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOSELUISOCHOAG/Curso-Js-OpenBootCamp.git"
+  },
+  "keywords": [
+    "OpenBootCamp",
+    "CursoJavaScript",
+    "JavaScript"
+  ],
+  "author": "Jose Luis Ochoa G.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JOSELUISOCHOAG/Curso-Js-OpenBootCamp/issues"
+  },
+  "homepage": "https://github.com/JOSELUISOCHOAG/Curso-Js-OpenBootCamp#readme"
+}
