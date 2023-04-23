@@ -1,0 +1,14 @@
+si ya existe
+git remote add origin https://github.com/JOSELUISOCHOAG/Curso-Js-OpenBootCamp.git
+git branch -M main
+git push -u origin main
+
+//
+creando uno nuevo
+echo "# Curso-Js-OpenBootCamp" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/JOSELUISOCHOAG/Curso-Js-OpenBootCamp.git
+git push -u origin main
