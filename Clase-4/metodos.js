@@ -24,4 +24,3 @@ nuevaOracion = stringVar.replace(/de/g,"DE");
 
 console.log('nuevaOracion es :>> ', nuevaOracion);
 
-

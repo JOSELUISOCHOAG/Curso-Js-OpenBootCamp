@@ -21,6 +21,6 @@ console.log('saludo :>> ', saludo);
 let plantilla = `<html>
                     <h1> Pagina web de ${nombre}</h1>
                     <p> esto es un parrafo</p>
-                </html>`
+                </html>`;
 
 console.log('plantilla :>> ', plantilla);
