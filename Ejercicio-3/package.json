@@ -1,0 +1,26 @@
+{
+  "name": "ejercicio-3",
+  "version": "1.0.0",
+  "description": "Uso de sentencia repetitivas Bucles while For DoWhile",
+  "main": "index.js",
+  "scripts": {
+    "buclefor": "node factorial-for.js",
+    "buclewhile1": "node factorial-while.js",
+    "buclewhile2": "node factorial-break.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOSELUISOCHOAG/Curso-Js-OpenBootCamp.git#master"
+  },
+  "keywords": [
+    "OpenBootCamp",
+    "JavaScript"
+  ],
+  "author": "Jose Luis Ochoa G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JOSELUISOCHOAG/Curso-Js-OpenBootCamp/issues"
+  },
+  "homepage": "https://github.com/JOSELUISOCHOAG/Curso-Js-OpenBootCamp/tree/master#readme"
+}
