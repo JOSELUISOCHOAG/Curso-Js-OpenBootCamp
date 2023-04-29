@@ -21,6 +21,14 @@ if ((numMax+1)===numMax){
     lMax=true;
 }
 
+/* resolucion planteada por el profesor, lo pude haber usado, pero en funcion de que en clase no se hablo de eso no 
+   crei conveniente usarlos, ya veo que debo investigar mas alla de la clase y usar lo que crea conveniente */
+
+const altura_red = Math.ceil(altura_m)
+const peso_red = Math.floor(peso_kg)
+
+const sonIguales = Number.MAX_VALUE + 1 === Number.MAX_VALUE
+
 console.log("altura cm : ",alturaCm);
 console.log("altura mt : ", alturaMt);
 console.log("peso en kg: ", pesoKg);
