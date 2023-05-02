@@ -1,0 +1,31 @@
+{
+  "name": "clase-9",
+  "version": "1.0.0",
+  "description": "\"Gestion de registros en JS. (logs)\"",
+  "main": "index2.js",
+  "scripts": {
+    "start": "node index2.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOSELUISOCHOAG/Curso-Js-OpenBootCamp.git#master"
+  },
+  "keywords": [
+    "Errores",
+    "Error",
+    "Log",
+    "Logs",
+    "JavaScript",
+    "OpenBootCamp"
+  ],
+  "author": "Jose Luis Ochoa G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JOSELUISOCHOAG/Curso-Js-OpenBootCamp/issues"
+  },
+  "homepage": "https://github.com/JOSELUISOCHOAG/Curso-Js-OpenBootCamp/tree/master#readme",
+  "dependencies": {
+    "winston": "^3.8.2"
+  }
+}
