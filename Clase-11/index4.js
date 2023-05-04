@@ -1,4 +1,5 @@
 // Inheritance o Herencia
+
 class Persona {
     _nombre;
     _edad;
