@@ -1,0 +1,28 @@
+{
+  "name": "ejercicio-13",
+  "version": "1.0.0",
+  "description": "Ejercicio propuesto 13, uso de Eslint",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint index.js",
+    "lint-fix": "eslint --fix index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JOSELUISOCHOAG/Curso-Js-OpenBootCamp.git#master"
+  },
+  "keywords": [
+    "ESLINT",
+    "JAVASCRIP",
+    "OPENBOOTCAM"
+  ],
+  "author": "Jose Luis Ochoa G",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JOSELUISOCHOAG/Curso-Js-OpenBootCamp/issues"
+  },
+  "homepage": "https://github.com/JOSELUISOCHOAG/Curso-Js-OpenBootCamp/tree/master#readme",
+  "devDependencies": {
+    "eslint": "^8.40.0"
+  }
+}
