@@ -1,0 +1,19 @@
+// Archivo de configuracion de reglas ESlint
+
+{
+
+        "env": { 
+                "es6": true, 
+                "node": true, 
+                "mocha": true
+        }, 
+
+                "rules": {
+        // Override our default settings just for this directory
+                "eqeqeq": "warn",
+                "strict": "off",
+                "quotes": ["error", "double"],
+                "semi": ["warn" , "always"],
+                "no-dupe-keys": "error"
+        }
+}
