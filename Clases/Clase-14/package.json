@@ -1,0 +1,20 @@
+{
+  "name": "clase-14",
+  "version": "1.0.0",
+  "description": "14.Gestión de eventos. Html, Css\r     - Introducción a HTML con JS\r     - Utilización de librerías de terceros\r     - Manejo de eventos en JavaScript\r     - Eventos personalizados\r     - JQuery\r     - Alertas y Dialogos en pantalla.",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1"
+  }
+}

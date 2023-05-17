@@ -1,0 +1,120 @@
+El objeto document en JavaScript proporciona una amplia gama de propiedades y métodos para interactuar con el Document Object Model (DOM) y manipular el contenido de una página web. A continuación, te proporciono una lista de algunas de las propiedades y métodos más comunes de document:
+
+Propiedades de document:
+
+document.documentElement: Devuelve el elemento <html> del documento.
+document.head: Devuelve el elemento <head> del documento.
+document.body: Devuelve el elemento <body> del documento.
+document.title: Obtiene o establece el título del documento.
+document.URL: Obtiene la URL del documento actual.
+document.domain: Obtiene o establece el dominio del documento.
+document.forms: Devuelve una colección de todos los elementos <form> del documento.
+document.images: Devuelve una colección de todas las imágenes <img> del documento.
+document.links: Devuelve una colección de todos los elementos <a> (enlaces) del documento.
+document.scripts: Devuelve una colección de todos los elementos <script> del documento.
+Métodos de document:
+
+document.getElementById(id): Devuelve el elemento con el ID especificado.
+document.getElementsByClassName(className): Devuelve una colección de elementos que tienen la clase CSS especificada.
+document.getElementsByTagName(tagName): Devuelve una colección de elementos con el nombre de etiqueta HTML especificado.
+document.querySelector(selector): Devuelve el primer elemento que coincide con el selector CSS especificado.
+document.querySelectorAll(selector): Devuelve una lista de todos los elementos que coinciden con el selector CSS especificado.
+document.createElement(tagName): Crea un nuevo elemento con el nombre de etiqueta especificado.
+document.createTextNode(text): Crea un nuevo nodo de texto con el contenido especificado.
+document.addEventListener(event, handler): Agrega un controlador de eventos al documento para un evento específico.
+document.removeEventListener(event, handler): Elimina un controlador de eventos del documento.
+document.write(content): Escribe contenido HTML directamente en el documento.
+Estas son solo algunas de las propiedades y métodos más utilizados del objeto document. Existen muchos más disponibles que puedes explorar en la documentación oficial de JavaScript.
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Cuando obtienes un elemento con document.getElementById(id), puedes acceder a diversas propiedades y métodos del elemento para modificarlo y realizar acciones sobre él. Aquí tienes algunos ejemplos de las propiedades y métodos más comunes que puedes utilizar:
+
+Propiedades del elemento:
+
+element.id: Devuelve o establece el ID del elemento.
+element.className: Devuelve o establece la clase CSS del elemento.
+element.innerHTML: Devuelve o establece el contenido HTML interno del elemento.
+element.textContent: Devuelve o establece el contenido de texto del elemento.
+element.style: Accede a las propiedades de estilo del elemento, como element.style.color o element.style.fontSize.
+element.value: Devuelve o establece el valor de un elemento de entrada, como un <input> o un <textarea>.
+element.src: Devuelve o establece la URL de la fuente de un elemento, como una imagen <img> o un video <video>.
+element.href: Devuelve o establece la URL de destino de un enlace <a>.
+Métodos del elemento:
+
+element.setAttribute(name, value): Establece el valor de un atributo del elemento.
+element.getAttribute(name): Obtiene el valor de un atributo del elemento.
+element.classList.add(className): Agrega una clase CSS al elemento.
+element.classList.remove(className): Elimina una clase CSS del elemento.
+element.classList.toggle(className): Alterna la presencia de una clase CSS en el elemento.
+element.addEventListener(event, handler): Agrega un controlador de eventos al elemento para un evento específico.
+element.removeEventListener(event, handler): Elimina un controlador de eventos del elemento.
+Estas son solo algunas de las propiedades y métodos más utilizados. Puedes explorar la documentación oficial de JavaScript o del DOM para obtener una lista completa de las propiedades y métodos disponibles para los elementos del DOM y aprender más sobre cómo utilizarlos.
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Cuando obtienes un elemento con `document.getElementById(id)`, puedes acceder a varias propiedades y métodos para modificar y manipular el elemento. A continuación, se muestran algunos ejemplos de las propiedades y métodos más comunes y los posibles parámetros y tipos de datos que se pueden utilizar:
+
+Propiedades del elemento:
+
+- `element.id`: Propiedad que devuelve o establece el ID del elemento. No requiere parámetros adicionales. Puedes usar un valor de tipo `string` para establecer el ID del elemento.
+
+- `element.className`: Propiedad que devuelve o establece la clase CSS del elemento. No requiere parámetros adicionales. Puedes usar un valor de tipo `string` para establecer la clase CSS del elemento.
+
+- `element.innerHTML`: Propiedad que devuelve o establece el contenido HTML interno del elemento. No requiere parámetros adicionales. Puedes usar un valor de tipo `string` para establecer el contenido HTML.
+
+- `element.textContent`: Propiedad que devuelve o establece el contenido de texto del elemento. No requiere parámetros adicionales. Puedes usar un valor de tipo `string` para establecer el contenido de texto.
+
+- `element.style`: Propiedad que accede a las propiedades de estilo del elemento, como `element.style.color` o `element.style.fontSize`. Los nombres de las propiedades de estilo son cadenas en formato de estilo de CSS. Puedes utilizar diferentes tipos de datos dependiendo de la propiedad de estilo que deseas modificar. Por ejemplo, para `element.style.color`, puedes usar un valor de tipo `string` que representa un color válido en CSS, como `"red"`, `"#FFFFFF"`, o `"rgb(255, 0, 0)"`.
+
+- `element.value`: Propiedad que devuelve o establece el valor de un elemento de entrada, como un `<input>` o un `<textarea>`. No requiere parámetros adicionales. Puedes usar un valor de tipo `string` para establecer el valor del elemento de entrada.
+
+- `element.src`: Propiedad que devuelve o establece la URL de la fuente de un elemento, como una imagen `<img>` o un video `<video>`. No requiere parámetros adicionales. Puedes usar un valor de tipo `string` para establecer la URL de la fuente.
+
+- `element.href`: Propiedad que devuelve o establece la URL de destino de un enlace `<a>`. No requiere parámetros adicionales. Puedes usar un valor de tipo `string` para establecer la URL de destino.
+
+Métodos del elemento:
+
+- `element.setAttribute(name, value)`: Método que establece el valor de un atributo del elemento. Requiere dos parámetros: `name`, que es una cadena que representa el nombre del atributo, y `value`, que es el valor del atributo. Ambos parámetros deben ser de tipo `string`.
+
+- `element.getAttribute(name)`: Método que obtiene el valor de un atributo del elemento. Requiere un parámetro `name`, que es una cadena que representa el nombre del atributo. Debe ser de tipo `string`.
+
+- `element.classList.add(className)`: Método que agrega una clase CSS al elemento. Requiere un parámetro `className`, que es una cadena que representa el nombre de la clase CSS que deseas agregar. Debe ser de tipo `string`.
+
+- `element.classList.remove(className)`: Método que elimina una clase CSS del elemento. Requiere un parámetro `className`, que es una cadena que
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Claro, a continuación te muestro algunas propiedades y métodos del DOM (Document Object Model) que puedes utilizar en JavaScript, junto con los parámetros y tipos de datos requeridos:
+
+Propiedades del elemento del DOM:
+
+- `element.id`: Propiedad que devuelve o establece el ID del elemento. No requiere parámetros adicionales. El ID debe ser un valor de tipo `string`.
+
+- `element.className`: Propiedad que devuelve o establece la clase del elemento. No requiere parámetros adicionales. El nombre de la clase debe ser un valor de tipo `string`.
+
+- `element.innerHTML`: Propiedad que devuelve o establece el contenido HTML interno del elemento. No requiere parámetros adicionales. El contenido HTML debe ser un valor de tipo `string`.
+
+- `element.textContent`: Propiedad que devuelve o establece el contenido de texto del elemento. No requiere parámetros adicionales. El contenido de texto debe ser un valor de tipo `string`.
+
+- `element.style`: Propiedad que accede a las propiedades de estilo del elemento. Los nombres de las propiedades de estilo son cadenas en formato de estilo de CSS. Puedes utilizar diferentes tipos de datos según la propiedad de estilo que deseas modificar. Por ejemplo, para `element.style.color`, puedes usar un valor de tipo `string` que representa un color válido en CSS, como `"red"`, `"#FFFFFF"`, o `"rgb(255, 0, 0)"`.
+
+- `element.value`: Propiedad que devuelve o establece el valor de un elemento de entrada, como un `<input>` o un `<textarea>`. No requiere parámetros adicionales. El valor debe ser un valor de tipo `string`.
+
+- `element.src`: Propiedad que devuelve o establece la URL de la fuente de un elemento, como una imagen `<img>` o un video `<video>`. No requiere parámetros adicionales. La URL de la fuente debe ser un valor de tipo `string`.
+
+- `element.href`: Propiedad que devuelve o establece la URL de destino de un enlace `<a>`. No requiere parámetros adicionales. La URL de destino debe ser un valor de tipo `string`.
+
+Métodos del elemento del DOM:
+
+- `element.setAttribute(name, value)`: Método que establece el valor de un atributo del elemento. Requiere dos parámetros: `name`, que es una cadena que representa el nombre del atributo, y `value`, que es el valor del atributo. Ambos parámetros deben ser de tipo `string`.
+
+- `element.getAttribute(name)`: Método que obtiene el valor de un atributo del elemento. Requiere un parámetro `name`, que es una cadena que representa el nombre del atributo. Debe ser de tipo `string`.
+
+- `element.classList.add(className)`: Método que agrega una clase al elemento. Requiere un parámetro `className`, que es una cadena que representa el nombre de la clase que deseas agregar. Debe ser de tipo `string`.
+
+- `element.classList.remove(className)`: Método que elimina una clase del elemento. Requiere un parámetro `className`, que es una cadena que representa el nombre de la clase que deseas eliminar. Debe ser de tipo `string`.
+
+
+
