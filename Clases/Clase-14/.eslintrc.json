@@ -13,6 +13,8 @@
     "rules": {
         "quotes":["warn","double"],
         "semi": ["warn","always" ],
-        "no-dupe-keys":"error"
+        "no-dupe-keys":"error",
+        "no-console":"off",
+        "$":"off"
     }
 }

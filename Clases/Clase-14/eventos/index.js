@@ -17,7 +17,8 @@ h1Texto.addEventListener("click", function () {
 );
 
 h1Texto.addEventListener("mouseover", function () {
-  cambiarTexto();
+  const eltexto = h1Texto.innerHTML;
+  cambiarTexto(eltexto, "yellow");
 }
 );
 
