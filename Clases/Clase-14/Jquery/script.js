@@ -1,6 +1,6 @@
 // como trabajar o utilizar jQuery
 // $(selector).accion()
-jQuery(document).ready(function ($) {
+$(document).ready(function () {
   $("#btn-hide").click(() => {
     $("h1").fadeOut(); // fadeOut Oculta con efecto
   });
