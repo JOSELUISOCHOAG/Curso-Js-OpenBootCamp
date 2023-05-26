@@ -1,0 +1,22 @@
+.container {
+  border: 1px solid blueviolet;
+}
+.seccion {
+  background-color: cadetblue;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.parafos {
+  background-color: white;
+  padding: 1rem;
+}
+
+.parafos.arrastrando {
+  color: crimson;
+  opacity: 0.3;
+}
+
+.seccion.arrastrandodiv {
+  background-color: cornflowerblue;
+}
